@@ -1,0 +1,19 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  color: $brand-white;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1 rem = 16px; 10px/16px = 62.5%
+}
+
+main {
+  flex-basis: 100%;
+  margin-bottom: 20rem;
+}

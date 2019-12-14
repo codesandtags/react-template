@@ -1,0 +1,14 @@
+@import "../../styles/main";
+
+header {
+  padding: 10px;
+  height: 200px;
+  background: red;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  margin: 1rem 2rem;
+  color: $brand-white;
+}

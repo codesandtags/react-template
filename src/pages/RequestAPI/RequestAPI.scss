@@ -1,0 +1,28 @@
+@import '../../../src/styles/main';
+
+.RequestAPI {
+  &__title {
+    margin-bottom: 3rem;
+  }
+
+  &__field {
+    margin: 2rem auto;
+  }
+
+  &__results {
+    margin: 3rem auto;
+    border: .1rem dashed $brand-light-purple;
+    padding: 2rem;
+  }
+}
+
+.Selector {
+  &--full-width {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+Button {
+  margin: 0.5rem auto;
+}
